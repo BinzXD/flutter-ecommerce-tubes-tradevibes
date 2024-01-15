@@ -1,0 +1,38 @@
+name: tubes_mobile
+description: A new Flutter project.
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.1.2 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.15.3
+  fluttertoast: ^8.2.4
+  cupertino_icons: ^1.0.2
+  font_awesome_flutter: ^10.6.0
+  google_sign_in: ^6.1.5
+  flutter_iconly: ^1.0.2
+  google_fonts: ^5.1.0
+  badges: ^3.1.1
+  easy_stepper: ^0.7.3
+
+  shared_preferences: ^2.2.2
+  cloud_firestore: ^4.14.0
+  image_picker: ^1.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - fonts/
+    - images/
